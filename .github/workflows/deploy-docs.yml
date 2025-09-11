@@ -12,7 +12,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: true
 
 jobs:
@@ -21,24 +21,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # ติดตั้ง Bun
-      - uses: oven-sh/setup-bun@v2
+      # ใช้ setup-bun รุ่นล่าสุดที่เสถียร และปัก bun-version + download-url ให้ชัด
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2.0.2
         with:
-          bun-version: "1.x"
+          bun-version: "1.2.20"
+          # ถ้ารันเนอร์รองรับ AVX2 ปกติใช้ไฟล์นี้
+          bun-download-url: "https://github.com/oven-sh/bun/releases/download/bun-v1.2.20/bun-linux-x64.zip"
+          # ถ้าคุณเจอเครื่องที่ไม่มี AVX2 ให้เปลี่ยนเป็น baseline:
+          # bun-download-url: "https://github.com/oven-sh/bun/releases/download/bun-v1.2.20/bun-linux-x64-baseline.zip"
 
-      # ติดตั้ง dependencies
       - name: Install deps
         run: bun install --frozen-lockfile
 
-      # Build VitePress (โฟลเดอร์ต้นทางคือ docs)
       - name: Build site
         run: bunx vitepress build docs
 
-      # ป้องกัน Jekyll กรองไฟล์ (ปลอดภัยไว้ก่อน)
       - name: Add .nojekyll
         run: touch docs/.vitepress/dist/.nojekyll
 
-      # อัปโหลดผลลัพธ์เป็น artifact สำหรับ Pages
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs/.vitepress/dist
