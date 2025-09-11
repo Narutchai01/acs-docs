@@ -16,15 +16,4 @@ hero:
   actions:
     - text: GitHub
       link: /service/github
-
-features:
-  - title: "Comprehensive Guides"
-    details: "Step-by-step tutorials and guides to help you navigate ACS resources effectively."
-    icon: book
-  - title: "Up-to-date Information"
-    details: "Regularly updated content to ensure you have the latest information on ACS events and opportunities."
-    icon: update
-  - title: "Community Contributions"
-    details: "Encouraging contributions from ACS members to enrich the documentation and share knowledge."
-    icon: users
 ---
