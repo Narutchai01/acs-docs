@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
 import { autoSidebar } from "./sidebars/auto.mjs";
+import { roadmapSidebars } from "./sidebars/roadmapSidebars.mts";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -24,6 +25,7 @@ export default defineConfig({
 
     sidebar: {
       "/service/github": autoSidebar("/service/github"),
+      "/service/roadmap": roadmapSidebars["/service/roadmap"],
     },
 
     socialLinks: [
