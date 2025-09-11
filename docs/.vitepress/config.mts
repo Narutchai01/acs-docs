@@ -16,14 +16,14 @@ export default defineConfig({
         items: [
           { text: "Developer", link: "/service/developer" },
           { text: "UX/UI", link: "/service/designer" },
+          { text: "Data Science / AI", link: "/service/datasci" },
+          { text: "Server", link: "/service/server" },
         ],
       },
     ],
 
     sidebar: {
       "/service/github": autoSidebar("/service/github"),
-      "/service/developer": autoSidebar("/service/developer"),
-      "/service/designer": autoSidebar("/service/designer"),
     },
 
     socialLinks: [
