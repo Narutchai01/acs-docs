@@ -3,7 +3,7 @@ import { autoSidebar } from "./sidebars/auto.mjs";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/docs/",
+  base: "/acs-docs/",
   title: "ACS Document",
   description: "document for acs student",
   themeConfig: {
