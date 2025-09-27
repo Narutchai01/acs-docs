@@ -1,333 +1,152 @@
 # Developer Roadmap
 
-## 🎯 ภาพรวม
+Roadmap สำหรับการเรียนรู้เพื่อเป็น Full-Stack Developer
 
-Roadmap นี้จัดทำขึ้นเพื่อเป็นแนวทางในการพัฒนาทักษะและความรู้สำหรับนักพัฒนาซอฟต์แวร์ โดยแบ่งออกเป็นระดับต่างๆ และครอบคลุมเทคโนโลยีที่สำคัญในปัจจุบัน
+## 🌱 Programming Fundamentals
 
----
+พื้นฐานที่จำเป็นสำหรับการเขียนโปรแกรมซึ่งจะเป็นส่วนหนึ่งวิชาที่จะได้เรียนภายในหลักสูตร 
 
-## 🏗️ Foundation (พื้นฐาน)
+- **Basic in Programming Languages**
 
-### 1. Programming Fundamentals
+  - JavaScript, TypeScript, C++, Go, Java, C#, 
 
-- [ ] **Data Structures & Algorithms**
+- **Data Structures & Algorithms**
 
-  - Arrays, Linked Lists, Stacks, Queues
-  - Trees, Graphs, Hash Tables
+  - Linear and Non-Linear Data Structures
   - Sorting & Searching Algorithms
   - Time & Space Complexity (Big O)
-
-- [ ] **Programming Languages**
-  - **Frontend**: JavaScript/TypeScript, HTML5, CSS3
-  - **Backend**: Python, Node.js, Java, C#, Go
-  - **Mobile**: React Native, Flutter, Swift, Kotlin
-
-### 2. Version Control
-
-- [ ] **Git Fundamentals**
-  - Basic commands (add, commit, push, pull)
-  - Branching strategies (Git Flow, GitHub Flow)
-  - Merge vs Rebase
-  - Conflict resolution
-
-### 3. Development Environment
-
-- [ ] **Command Line/Terminal**
-- [ ] **Code Editors/IDEs** (VS Code, IntelliJ, etc.)
-- [ ] **Package Managers** (npm, yarn, pip, maven)
 
 ---
 
 ## 🌐 Frontend Development
 
-### 1. Core Technologies
+### Basic static website development
 
-- [ ] **HTML5**
+การสร้างหน้าเว็ปแบบ static เพื่อแสดงผลข้อมูล โดยใช้ HTML CSS และ JavaScript
 
-  - Semantic HTML
-  - Forms & Validation
-  - Accessibility (a11y)
+- **Concepts**
 
-- [ ] **CSS3**
+  - HTML (structure and layout of a web page)
+  - CSS (styling and Responsive Design)
+  - JavaScript (DOM, Events, Function, Variable, Loop)
+  - Form and Validation
 
-  - Flexbox & Grid Layout
-  - Responsive Design
-  - CSS Preprocessors (Sass, Less)
-  - CSS-in-JS
+### Dynamic website development
 
-- [ ] **JavaScript**
-  - ES6+ Features
-  - DOM Manipulation
-  - Event Handling
-  - Async Programming (Promises, async/await)
+การสร้างหน้าเว็ปแบบ dynamic ที่สามารถเชื่อมต่อกับข้อมูลภายนอกและเปลี่ยนแปลงได้
 
-### 2. Frontend Frameworks
+- **Concepts**
 
-- [ ] **React**
+  - API fetching from REST API
+  - Dynamic rendering
+  - Async Programming
 
-  - Components & JSX
-  - State Management (useState, useReducer)
-  - Effects (useEffect)
-  - Context API
-  - React Router
+### *Opitional*
 
-- [ ] **Vue.js** (Alternative)
+- **Programming language and frameworks**
 
-  - Vue 3 Composition API
-  - Vuex/Pinia
-
-- [ ] **Angular** (Alternative)
-  - Components & Services
-  - RxJS
-  - Angular CLI
-
-### 3. Advanced Frontend
-
-- [ ] **State Management**
-
-  - Redux/Zustand (React)
-  - Vuex/Pinia (Vue)
-  - NgRx (Angular)
-
-- [ ] **Build Tools**
-
-  - Webpack, Vite, Parcel
-  - Babel
-  - ESLint, Prettier
-
-- [ ] **Testing**
-  - Unit Testing (Jest, Vitest)
-  - Integration Testing
-  - E2E Testing (Cypress, Playwright)
+  - React, Vue, Angular
+  - Typescript
 
 ---
 
 ## ⚙️ Backend Development
+  
+### Databases
 
-### 1. Server-Side Fundamentals
+การออกแบบ สร้าง และใช้งานฐานข้อมูลสำหรับการพัฒนาแอปพลิเคชั่น
 
-- [ ] **Web Servers**
+- **Concepts**
+
+  - Relational Databases (SQL, DB Design, Normalization, Indexing, Transactions)
+  - NoSQL Databases (MongoDB, Document vs Key-Value vs Graph)
+
+### Server-Side Fundamentals
+
+การพัฒนาแอปพลิเคชันฝั่งเซิร์ฟเวอร์ เพื่อให้สามารถทำงานด้าน CRUD และเชื่อมต่อกับฐานข้อมูล
+
+- **Concepts**
 
   - HTTP/HTTPS Protocol
-  - RESTful APIs
-  - GraphQL
-  - WebSockets
+  - RESTful API with CRUD (HTTP Methods & Status Codes)
+  - Database Connection & Query Handling
+  - API Documentation (OpenAPI/Swagger)
+  - Error Handling & Logging
 
-- [ ] **Backend Frameworks**
-  - **Node.js**: Express.js, Fastify, NestJS
-  - **Python**: Django, FastAPI, Flask
-  - **Java**: Spring Boot
-  - **C#**: ASP.NET Core
-  - **Go**: Gin, Echo
+- **Backend Programming Langauges and Frameworks**
 
-### 2. Databases
+  - Go (Gin, Fiber), C# (ASP.NET Core), Java (Sprint Boot), Node.js (Express.js, NestJS), Python (Django, FastAPI, Flask)
 
-- [ ] **Relational Databases**
+### *Optional*
 
-  - SQL Fundamentals
-  - PostgreSQL, MySQL
-  - Database Design & Normalization
-  - Indexing & Query Optimization
+- **ORMs/ODMs**
 
-- [ ] **NoSQL Databases**
-
-  - MongoDB (Document)
-  - Redis (Key-Value)
-  - Cassandra (Column-Family)
-
-- [ ] **ORMs/ODMs**
-  - Prisma, TypeORM (Node.js)
-  - SQLAlchemy (Python)
-  - Hibernate (Java)
-
-### 3. API Development
-
-- [ ] **REST API Design**
-
-  - HTTP Methods & Status Codes
-  - API Versioning
-  - Rate Limiting
-  - Documentation (OpenAPI/Swagger)
-
-- [ ] **GraphQL**
-  - Schema Design
-  - Resolvers
-  - Apollo Server
+    - GORM (Go)
+    - Entity Framework Core (C#)
+    - Prisma (Node.js)
+    - Hibernate (Java)
 
 ---
 
-## 🚀 DevOps & Infrastructure
+## 🔐 Authentication & Security
 
-### 1. Containerization
+การสร้างระบบยืนยันตัวตน และดูแลความปลอดภัยของแอปพลิเคชัน
 
-- [ ] **Docker**
-
-  - Dockerfile
-  - Docker Compose
-  - Container Orchestration
-
-- [ ] **Kubernetes** (Advanced)
-  - Pods, Services, Deployments
-  - ConfigMaps & Secrets
-
-### 2. Cloud Platforms
-
-- [ ] **AWS**
-
-  - EC2, S3, RDS
-  - Lambda Functions
-  - API Gateway
-
-- [ ] **Google Cloud Platform**
-- [ ] **Microsoft Azure**
-
-### 3. CI/CD
-
-- [ ] **GitHub Actions**
-- [ ] **GitLab CI**
-- [ ] **Jenkins**
+- **Concepts**
+  - Login/Signup
+  - Authentication & Authorization (JWT Tokens, Session Management, OAuth 2.0, Role-Based Access Control)
+  - API Security (Input Validation, HTTPS/TLS, Rate Limiting)
+  - Vulnerabilities (XSS, CSRF, SQL Injection, OWASP Top 10)
+  - Secure Password Storage (Hashing & Salting)
 
 ---
 
-## 🔒 Security
+ถึงตรงนี้คุณก็ถือว่ามีพื้นฐานที่แข็งแรงพอจะสำหรับการทำงานจริงในหลาย ๆ โครงการแล้ว 🎉
+ต่อไปคือหัวข้อ Advance ที่ผมอยากแนะนำให้ศึกษาต่อ
+เนื้อหาส่วนนี้จะช่วยยกระดับสกิล และทำให้งานของคุณมีคุณภาพมากขึ้น 🚀
+สามารถเลือกเรียนตามความสนใจหรือเส้นทางที่อยากโตต่อไปได้เลยครับ ✨
 
-### 1. Web Security
+## 🚀 Advanced
 
-- [ ] **Authentication & Authorization**
+## Testing *(Recommend)*
 
-  - JWT Tokens
-  - OAuth 2.0
-  - Session Management
+- Unit Testing
+- Integration Testing
+- E2E Testing
+- Performance Testing
+- Testing Tools (Jest, Cypress, Playwright)
 
-- [ ] **Common Vulnerabilities**
-  - XSS, CSRF, SQL Injection
-  - OWASP Top 10
 
-### 2. API Security
+### DevOps & Infrastructure
 
-- [ ] **Rate Limiting**
-- [ ] **Input Validation**
-- [ ] **HTTPS/TLS**
+- Containerization (Docker)
+- CI/CD
+- Environment and Deployment (Dev, Staging, Production)
+- Cloud Platforms (AWS, Google Clound, Microsoft Azure)
 
----
 
-## 📱 Mobile Development
+### Mobile & Cross-platform
 
-### 1. Cross-Platform
-
-- [ ] **React Native**
-- [ ] **Flutter**
-
-### 2. Native Development
-
-- [ ] **iOS**: Swift, SwiftUI
-- [ ] **Android**: Kotlin, Jetpack Compose
-
----
-
-## 🧪 Testing & Quality Assurance
-
-### 1. Testing Types
-
-- [ ] **Unit Testing**
-- [ ] **Integration Testing**
-- [ ] **E2E Testing**
-- [ ] **Performance Testing**
-
-### 2. Testing Tools
-
-- [ ] **Jest, Vitest** (JavaScript)
-- [ ] **Pytest** (Python)
-- [ ] **JUnit** (Java)
-- [ ] **Cypress, Playwright** (E2E)
-
----
-
-## 📈 Performance & Optimization
-
-### 1. Frontend Performance
-
-- [ ] **Core Web Vitals**
-- [ ] **Bundle Optimization**
-- [ ] **Image Optimization**
-- [ ] **Caching Strategies**
-
-### 2. Backend Performance
-
-- [ ] **Database Optimization**
-- [ ] **Caching** (Redis, Memcached)
-- [ ] **Load Balancing**
-- [ ] **CDN Implementation**
+- React Native, Flutter, Swift, Kotlin
+- API Integration
+- Mobile Deployment (App Store)
 
 ---
 
 ## 🎨 Soft Skills & Best Practices
 
-### 1. Code Quality
+### Code Quality
 
-- [ ] **Clean Code Principles**
-- [ ] **SOLID Principles**
-- [ ] **Design Patterns**
-- [ ] **Code Reviews**
+- Clean Code Principles
+- SOLID Principles
+- Design Patterns
+- Code Reviews
 
-### 2. Project Management
+### Project Management
 
-- [ ] **Agile/Scrum Methodology**
-- [ ] **Technical Documentation**
-- [ ] **Communication Skills**
-- [ ] **Problem Solving**
+- Agile/Scrum Methodology
+- Technical Documentation
 
 ---
 
-## 📚 Learning Resources
-
-### 1. Online Platforms
-
-- [ ] **Documentation** (MDN, Official Docs)
-- [ ] **Courses** (Coursera, Udemy, freeCodeCamp)
-- [ ] **Practice** (LeetCode, HackerRank, Codewars)
-
-### 2. Communities
-
-- [ ] **Stack Overflow**
-- [ ] **GitHub**
-- [ ] **Dev.to**
-- [ ] **Reddit Programming Communities**
-
----
-
-## 🗓️ Timeline Suggestions
-
-### Beginner (0-6 months)
-
-- Programming Fundamentals
-- Git Basics
-- Frontend Basics (HTML, CSS, JavaScript)
-
-### Intermediate (6-18 months)
-
-- Framework Specialization
-- Backend Development
-- Database Management
-- Basic DevOps
-
-### Advanced (18+ months)
-
-- Microservices Architecture
-- Advanced DevOps & Cloud
-- Performance Optimization
-- Leadership & Mentoring
-
----
-
-## 💡 Pro Tips
-
-1. **Practice Consistently**: Code every day, even if it's just 30 minutes
-2. **Build Projects**: Apply what you learn in real projects
-3. **Join Communities**: Network and learn from other developers
-4. **Stay Updated**: Technology evolves rapidly, keep learning
-5. **Focus on Fundamentals**: Strong basics make learning new technologies easier
-
----
-
-อัพเดทล่าสุด: กันยายน 2025
+เขียนโดย [FC4RICA](https://github.com/FC4RICA) อัพเดทล่าสุด: กันยายน 2025
