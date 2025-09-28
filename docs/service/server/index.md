@@ -62,3 +62,7 @@ Roadmap สำหรับการเรียนรู้เพื่อเป
 - Cloud Platforms (AWS, Google Cloud, Azure)
 - Serverless
 - Load Balancing
+
+---
+
+เขียนโดย [FC4RICA](https://github.com/FC4RICA) อัพเดทล่าสุด: กันยายน 2025

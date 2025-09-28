@@ -74,3 +74,7 @@ Roadmap สำหรับการเรียนรู้เพื่อเป
 - Conversion-Centered Design (landing page)
 - User Interaction & Motion Design (feedback, micro-interactions, animation)
 - Design Research & Analysis (Design Pattern, Comparative Analysis)
+
+---
+
+เขียนโดย [FC4RICA](https://github.com/FC4RICA) อัพเดทล่าสุด: กันยายน 2025
