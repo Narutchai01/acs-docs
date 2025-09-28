@@ -16,6 +16,7 @@ export default defineConfig({
       {
         text: "RoadMap",
         items: [
+          { text: "Business Analytics", link: "/service/business" },
           { text: "Developer", link: "/service/developer" },
           { text: "UX/UI", link: "/service/designer" },
           { text: "Data Science / AI", link: "/service/datasci" },
